@@ -5,7 +5,7 @@ try:
         checkhigh = '/sdcard/xxsvr.txt'
         if 'permission denied' in checkhigh:
         	print(f'First Give Storage Permission..');exit()
-except ImportError:
+except PermissionError:
         os.system('termux-setup-storage')
         os.system('git pull')
         
