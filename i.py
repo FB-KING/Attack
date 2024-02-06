@@ -1,9 +1,9 @@
 import os,sys
 try:
 	import os, sys, rich, requests
-	#try:
-		#mkdir('/sdcard/xxsvr.txt')
-	#except:print('sex');exit()
+	try:
+		mkdir('/sdcard/xxsvr.txt')
+	except:print('sex');exit()
 	os.system('termux-setup-storage')
 	#if 'permission denied' in checkhigh:
 		#print(f'First Give Storage Permission..');exit)
