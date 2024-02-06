@@ -4,7 +4,7 @@ try:
 	try:
 		mkdir('/sdcard/xxsvr.txt')
 	except:print('sex');exit()
-	os.system('termux-setup-storage')
+	#os.system('termux-setup-storage')
 	#if 'permission denied' in checkhigh:
 		#print(f'First Give Storage Permission..');exit)
 except PermissionError:
