@@ -1,6 +1,6 @@
 import os,sys
 try:
-        import os, storage, sys, rich, requests
+        import os, sys, rich, requests
         mkdir('/sdcard/xxsvr.txt')
         checkhigh = '/sdcard/xxsvr.txt'
         if 'permission denied' in checkhigh:
