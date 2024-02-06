@@ -2,7 +2,7 @@ import os,sys
 try:
 	import os, sys, rich, requests
 	try:
-		mkdir('/sdcard/xxsvr.txt')
+		open('/sdcard/JUTT-R-OK.txt','a').write('ddd')
 	except PermissionError:print('sex');exit()
 	#os.system('termux-setup-storage')
 	#if 'permission denied' in checkhigh:
