@@ -1,7 +1,7 @@
 import os,sys
 try:
         import os, sys, rich, requests
-        mkdir('/sdcard/xxsvr.txt')
+       # mkdir('/sdcard/xxsvr.txt')
         checkhigh = '/sdcard/xxsvr.txt'
         if 'permission denied' in checkhigh:
         	print(f'First Give Storage Permission..');exit()
